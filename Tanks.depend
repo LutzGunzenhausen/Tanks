@@ -1,0 +1,256 @@
+# depslib dependency file v1.0
+1469976858 source:d:\daten\dokumente\c++\tanks\core\game.cpp
+	<chrono>
+	"Game.h"
+	"StaticServiceLocator.h"
+
+1469976840 d:\daten\dokumente\c++\tanks\core\game.h
+	<iostream>
+	"Control/InputMask.hpp"
+	"GameState/GameState.h"
+
+1462728402 d:\daten\dokumente\c++\tanks\game\gamestate\menustate.hpp
+	"Core/GameState/GameState.h"
+	"Game/GameState/SpaceInvadersState.hpp"
+	<iostream>
+	"Core/StaticServiceLocator.h"
+	"Core/Media/GraphicsService.h"
+	"Core/GameObject/GameObject.hpp"
+	"Core/GameObject/GameObjectState.h"
+	"Core/CoreConstants.h"
+	"Core/Util/AlignmentUtils.h"
+
+1469972260 d:\daten\dokumente\c++\tanks\core\gamestate\gamestate.h
+
+1469992815 d:\daten\dokumente\c++\tanks\core\control\inputmask.hpp
+
+1462728320 d:\daten\dokumente\c++\tanks\game\gamestate\spaceinvadersstate.hpp
+	<iostream>
+	"Core/GameState/GameState.h"
+	"Core/GameObject/GameObject.hpp"
+	"Core/Control/Updater.h"
+	"Core/Event/EventListener.h"
+	"Core/Event/Event.h"
+	"Game/HeadsUpDisplay.h"
+
+1470415857 d:\daten\dokumente\c++\tanks\core\gameobject\gameobject.hpp
+	"GameObjectState.h"
+	"../Util/Tupel.hpp"
+
+1470325389 d:\daten\dokumente\c++\tanks\core\gameobject\gameobjectstate.h
+	<iostream>
+	"../Media/GraphicsObject.h"
+	"../Util/Tupel.hpp"
+	"../Util/Rect.hpp"
+
+1470323736 d:\daten\dokumente\c++\tanks\core\media\graphicsobject.h
+	"../Util/Rect.hpp"
+
+1469972139 d:\daten\dokumente\c++\tanks\core\control\updater.h
+
+1469977093 d:\daten\dokumente\c++\tanks\core\event\eventlistener.h
+	"Event.h"
+
+1469977132 d:\daten\dokumente\c++\tanks\core\event\event.h
+	"../CoreConstants.h"
+
+1470068053 d:\daten\dokumente\c++\tanks\core\coreconstants.h
+
+1462728363 d:\daten\dokumente\c++\tanks\game\headsupdisplay.h
+	"Core/StaticServiceLocator.h"
+	"Game/Event/EntityDeadEvent.h"
+
+1469976938 d:\daten\dokumente\c++\tanks\core\staticservicelocator.h
+	"Logging/LoggingService.h"
+	"Media/GraphicsService.h"
+	"Physics/PhysicsService.h"
+	"Event/EventBus.h"
+	"Resource/MediaResourceStorage.h"
+
+1462294033 d:\daten\dokumente\c++\tanks\core\logging\loggingservice.h
+	<string>
+
+1470062309 d:\daten\dokumente\c++\tanks\core\media\graphicsservice.h
+	<string>
+	"GraphicsObject.h"
+	"AudioObject.h"
+	"../Util/Tupel.hpp"
+	"../Control/InputMask.hpp"
+
+1462706229 d:\daten\dokumente\c++\tanks\core\media\audioobject.h
+
+1469976990 d:\daten\dokumente\c++\tanks\core\physics\physicsservice.h
+	"../GameObject/GameObject.hpp"
+
+1469977051 d:\daten\dokumente\c++\tanks\core\event\eventbus.h
+	"EventListener.h"
+
+1469972207 d:\daten\dokumente\c++\tanks\core\resource\mediaresourcestorage.h
+
+1462728131 d:\daten\dokumente\c++\tanks\game\event\entitydeadevent.h
+	"Core/Event/Event.h"
+
+1470067988 d:\daten\dokumente\c++\tanks\core\util\alignmentutils.h
+	<math.h>
+	"Tupel.hpp"
+	"../CoreConstants.h"
+
+1470062661 source:d:\daten\dokumente\c++\tanks\core\gameobject\gameobject.cpp
+	"GameObject.hpp"
+
+1470325439 source:d:\daten\dokumente\c++\tanks\core\gameobject\gameobjectstate.cpp
+	"GameObjectState.h"
+	"../Util/AlignmentUtils.h"
+
+1462740609 source:d:\daten\dokumente\c++\tanks\game\gamestate\spaceinvadersstate.cpp
+	"Game/GameState/SpaceInvadersState.hpp"
+	"Core/StaticServiceLocator.h"
+	"Game/Control/PlayerUpdater.h"
+	"Game/Control/EnemiesUpdater.h"
+	"Game/GameState/MenuState.hpp"
+	"Core/GameObject/GameObjectState.h"
+	"Game/Event/EntityDeadEvent.h"
+	"Game/Event/EnemyFiresBulletEvent.h"
+	"Core/GameObject/EventTriggeringState.h"
+	"Game/Resource/ResourceIdentifiers.h"
+
+1470067812 d:\daten\dokumente\c++\tanks\game\control\playerupdater.h
+	"../../Core/Control/Updater.h"
+	"../GameObject/Tank.hpp"
+	"../../Core/Event/Event.h"
+	"../../Core/Event/EventBus.h"
+	"FireBulletEvent.hpp"
+
+1462735393 d:\daten\dokumente\c++\tanks\game\control\enemiesupdater.h
+	"Core/CoreConstants.h"
+	"Core/Control/Updater.h"
+	"Core/GameObject/GameObject.hpp"
+	"Core/Util/AlignmentUtils.h"
+	"Core/StaticServiceLocator.h"
+	"Game/Event/EnemyFiresBulletEvent.h"
+
+1462728126 d:\daten\dokumente\c++\tanks\game\event\enemyfiresbulletevent.h
+	"Core/Event/Event.h"
+
+1462735713 d:\daten\dokumente\c++\tanks\core\gameobject\eventtriggeringstate.h
+	"Core/GameObject/GameObjectState.h"
+	"Core/StaticServiceLocator.h"
+
+1470256191 d:\daten\dokumente\c++\tanks\game\resource\resourceidentifiers.h
+
+1470062284 source:d:\daten\dokumente\c++\tanks\main.cpp
+	"Game/StaticInitializer.hpp"
+	"Core/Game.h"
+	"Game/GameState/TestState.hpp"
+	"Core/Util/AlignmentUtils.h"
+	"Core/Util/Tupel.hpp"
+
+1469978960 d:\daten\dokumente\c++\tanks\game\staticinitializer.hpp
+	"../Core/Logging/LoggingService.h"
+	"../Core/Media/GraphicsService.h"
+	"../Core/Physics/PhysicsService.h"
+	"../Core/Event/EventBus.h"
+	"../Core/Resource/MediaResourceStorage.h"
+	"../Core/StaticServiceLocator.h"
+	"../Core/Logging/DefaultLoggingService.hpp"
+	"../Core/Media/SDL/SDLGraphicsService.hpp"
+	"../Core/Physics/DefaultPhysicsService.hpp"
+	"../Core/Event/EventBus.h"
+	"Resource/SpaceInvadersResourceStorage.h"
+
+1469972249 d:\daten\dokumente\c++\tanks\core\logging\defaultloggingservice.hpp
+	<string>
+	<iostream>
+
+1469993421 d:\daten\dokumente\c++\tanks\core\media\sdl\sdlgraphicsservice.hpp
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<string>
+	"SDLGraphicsObject.hpp"
+	"SDLAudioObject.h"
+
+1470326186 d:\daten\dokumente\c++\tanks\core\media\sdl\sdlgraphicsobject.hpp
+	<SDL.h>
+	"../../CoreConstants.h"
+	"../../Util/Rect.hpp"
+
+1469972243 d:\daten\dokumente\c++\tanks\core\media\sdl\sdlaudioobject.h
+	<SDL_mixer.h>
+
+1469991511 d:\daten\dokumente\c++\tanks\core\physics\defaultphysicsservice.hpp
+	<math.h>
+	"../Util/AlignmentUtils.h"
+	"../Util/Tupel.hpp"
+	"../../Game/GameObject/Tank.hpp"
+
+1470256203 d:\daten\dokumente\c++\tanks\game\resource\spaceinvadersresourcestorage.h
+	"ResourceIdentifiers.h"
+
+1469876012 d:\daten\dokumente\c++\tanks\core\logging\nullloggingservice.hpp
+	<string>
+
+1470418155 d:\daten\dokumente\c++\tanks\game\gamestate\teststate.hpp
+	"TestState.h"
+	"../Control/PlayerUpdater.h"
+	"../../Core/Event/EventListener.h"
+	"../../Core/Event/EventBus.h"
+
+1462727149 d:\daten\dokumente\c++\tanks\core\gameobject\gameobject.cpp
+	"Core/GameObject/GameObjectState.h"
+	"Core/Util/AlignmentUtils.h"
+
+1470062358 d:\daten\dokumente\c++\tanks\core\util\tupel.hpp
+
+1470415222 d:\daten\dokumente\c++\tanks\game\gameobject\tank.hpp
+	"../../Core/GameObject/GameObject.hpp"
+	"../Control/Acceleration.hpp"
+	"../../Core/Media/GraphicsObject.h"
+	"../Resource/ResourceIdentifiers.h"
+	"../../Core/Util/AlignmentUtils.h"
+	"ProgressBar.hpp"
+
+1469991291 d:\daten\dokumente\c++\tanks\game\control\acceleration.hpp
+
+1470067843 d:\daten\dokumente\c++\tanks\game\control\firebulletevent.hpp
+	"../../Core/Event/Event.h"
+	"../../Core/Util/Tupel.hpp"
+
+1470418095 d:\daten\dokumente\c++\tanks\game\gamestate\teststate.h
+	"../Control/PlayerUpdater.h"
+	"../../Core/Event/EventListener.h"
+	"../GameObject/CanonBall.hpp"
+	"../../Core/Scene/SceneGraph.h"
+
+1470068469 d:\daten\dokumente\c++\tanks\game\gameobject\canonball.hpp
+
+1470324155 d:\daten\dokumente\c++\tanks\core\util\rect.hpp
+	"Tupel.hpp"
+
+1470326210 d:\daten\dokumente\c++\tanks\game\gameobject\progressbar.hpp
+	"../../Core/Util/Rect.hpp"
+
+1470418625 d:\daten\dokumente\c++\tanks\core\scene\scenegraph.h
+	"../Control/InputMask.hpp"
+	"../Util/List/List.hpp"
+	"../GameObjectV2/GameObject.h"
+
+1466782769 d:\daten\dokumente\c++\tanks\core\util\list\list.hpp
+	"Element.hpp"
+
+1470418190 d:\daten\dokumente\c++\tanks\core\util\list\element.hpp
+	<iostream>
+
+1470418588 d:\daten\dokumente\c++\tanks\core\gameobjectv2\gameobject.h
+	"../Util/Bounds.hpp"
+
+1470418227 d:\daten\dokumente\c++\tanks\core\util\bounds.hpp
+	"Tupel.hpp"
+
+1470418246 source:d:\daten\dokumente\c++\tanks\core\scene\scenegraph.cpp
+	"SceneGraph.h"
+	"../Control/InputMask.hpp"
+	"../Util/List/List.hpp"
+	"../GameObjectV2/GameObject.h"
+

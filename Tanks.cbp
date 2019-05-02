@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Tanks" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Tanks" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../Tanks" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Tanks" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Core/Control/InputMask.hpp" />
+		<Unit filename="Core/Control/Updater.h" />
+		<Unit filename="Core/CoreConstants.h" />
+		<Unit filename="Core/Event/Event.h" />
+		<Unit filename="Core/Event/EventBus.h" />
+		<Unit filename="Core/Event/EventListener.h" />
+		<Unit filename="Core/Game.cpp" />
+		<Unit filename="Core/Game.h" />
+		<Unit filename="Core/GameObjectV2/GameObject.h" />
+		<Unit filename="Core/GameObject/EventTriggeringState.h" />
+		<Unit filename="Core/GameObject/GameObject.cpp" />
+		<Unit filename="Core/GameObject/GameObject.hpp" />
+		<Unit filename="Core/GameObject/GameObjectState.cpp" />
+		<Unit filename="Core/GameObject/GameObjectState.h" />
+		<Unit filename="Core/GameState/GameState.h" />
+		<Unit filename="Core/Logging/DefaultLoggingService.hpp" />
+		<Unit filename="Core/Logging/LoggingService.h" />
+		<Unit filename="Core/Logging/NullLoggingService.hpp" />
+		<Unit filename="Core/Media/AudioObject.h" />
+		<Unit filename="Core/Media/GraphicsObject.h" />
+		<Unit filename="Core/Media/GraphicsService.h" />
+		<Unit filename="Core/Media/SDL/SDLAudioObject.h" />
+		<Unit filename="Core/Media/SDL/SDLGraphicsObject.hpp" />
+		<Unit filename="Core/Media/SDL/SDLGraphicsService.hpp" />
+		<Unit filename="Core/Physics/DefaultPhysicsService.hpp" />
+		<Unit filename="Core/Physics/PhysicsService.h" />
+		<Unit filename="Core/Resource/MediaResourceStorage.h" />
+		<Unit filename="Core/Scene/SceneGraph.cpp" />
+		<Unit filename="Core/Scene/SceneGraph.h" />
+		<Unit filename="Core/StaticServiceLocator.h" />
+		<Unit filename="Core/Util/AlignmentUtils.h" />
+		<Unit filename="Core/Util/Bounds.hpp" />
+		<Unit filename="Core/Util/List/Element.hpp" />
+		<Unit filename="Core/Util/List/List.hpp" />
+		<Unit filename="Core/Util/Rect.hpp" />
+		<Unit filename="Core/Util/Tupel.hpp" />
+		<Unit filename="Game/Control/Acceleration.hpp" />
+		<Unit filename="Game/Control/EnemiesUpdater.h" />
+		<Unit filename="Game/Control/FireBulletEvent.hpp" />
+		<Unit filename="Game/Control/PlayerUpdater.h" />
+		<Unit filename="Game/GameConstants.h" />
+		<Unit filename="Game/GameObject/CanonBall.hpp" />
+		<Unit filename="Game/GameObject/ProgressBar.hpp" />
+		<Unit filename="Game/GameObject/Tank.hpp" />
+		<Unit filename="Game/GameState/TestState.h" />
+		<Unit filename="Game/GameState/TestState.hpp" />
+		<Unit filename="Game/Resource/ResourceIdentifiers.h" />
+		<Unit filename="Game/Resource/SpaceInvadersResourceStorage.h" />
+		<Unit filename="Game/StaticInitializer.hpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

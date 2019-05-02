@@ -1,0 +1,13 @@
+#ifndef CONSTANTS_H_INCLUDED
+#define CONSTANTS_H_INCLUDED
+
+const int FRAMES_PER_SECOND = 60;
+const int DELAY_TIME = 1000 / FRAMES_PER_SECOND;
+const int WINDOW_HEIGHT = 480;
+const int WINDOW_WIDTH = 640;
+
+enum EventTypes {
+    PLAYER_FIRES_BULLET
+};
+
+#endif // CONSTANTS_H_INCLUDED
